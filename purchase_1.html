@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Purchase 1</title>
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -16,6 +16,12 @@
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '541186310113295');
         fbq('track', 'PageView');
+        fbq('track', 'Purchase', {
+            content_ids: ['SKU-123', 'SKU-456'],
+            content_type: 'product',
+            value: 550.00,
+            currency: 'USD',
+        })
     </script>
     <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=541186310113295&ev=PageView&noscript=1"
@@ -23,10 +29,6 @@
     <!-- End Facebook Pixel Code -->
 </head>
 <body>
-    <h1>首頁</h1>
-    <p><a href="product_1.html">product 1</a></p>
-    <p><a href="product_list_1.html">product list 1</a></p>
-    <p><a href="product_group_1.html">product group 1</a></p>
-
+    <h1>Purchase 1</h1>
 </body>
 </html>
