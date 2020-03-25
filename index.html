@@ -21,12 +21,22 @@
         src="https://www.facebook.com/tr?id=541186310113295&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+
+    <script>
+        function onClick() {
+            fbq('trackCustom', 'FrequentShopper', {   
+                num_items: 8,   
+                average_order: 245.24,   
+                favorite_category: 'Sporting Goods' 
+            });
+        };
+    </script>
 </head>
 <body>
     <h1>首頁</h1>
     <p><a href="product_1.html">product 1</a></p>
     <p><a href="product_list_1.html">product list 1</a></p>
     <p><a href="product_group_1.html">product group 1</a></p>
-
+    <button onclick="onClick()">track custom 1</button>
 </body>
 </html>
