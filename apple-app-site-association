@@ -1,0 +1,20 @@
+{
+    "webcredentials": {
+        "apps": [
+            "B28A4AK28S.com.bevis.EasyPassword"
+        ]
+    },
+    "applinks": {
+        "apps": [
+            "B28A4AK28S.com.bevis.EasyPassword"
+        ],
+        "details": [
+            {
+                "appID": "B28A4AK28S.com.bevis.EasyPassword",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}
